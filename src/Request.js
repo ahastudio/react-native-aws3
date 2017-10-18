@@ -103,5 +103,5 @@ export class Request {
   }
 }
 
-Request.FormData = FormData
-Request.XMLHttpRequest = XMLHttpRequest
+Request.FormData = global.FormData
+Request.XMLHttpRequest = global.XMLHttpRequest
